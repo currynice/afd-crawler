@@ -373,16 +373,16 @@ def run(cellphone=None, passwd=None, exclude=None, file_type=None):
 
 
 if __name__ == "__main__":
-    # 采用在脚本中写死账号密码的方式
-    cellphone = "13905156639"
-    passwd = "afdnb30asD"
+   # 采用在脚本中写死账号密码的方式
+    # cellphone = "*"
+    # passwd = "*"
 
     # 采用每次跑脚本手动输入账号密码的方式
-    # cellphone = str(input("请输入你的账号（手机号）: "))
-    # pwd = str(input("请输入你的密码: "))
+    cellphone = str(input("请输入你的账号（手机号）: "))
+    passwd = str(input("请输入你的密码: "))
 
     # 需要排除的节目id
-    # exclude = ['左耳听风', '趣谈网络协议']
+    # exclude = ['sx1', 'sx2']
     exclude = []
 
     # 保存文件的后缀名
